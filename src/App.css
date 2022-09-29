@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+  display: flex;
+  background-color: #4f4d4f;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* .App-header {
+  background-color: #4f4d4f;
+  /* min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} 
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+/* } */
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: 976px;
+  width: 100%;
+}
+
+.second {
+  display: flex;
+  position: fixed;
+  background-size: 100% 100%;
+  background-image: url("https://nexgenconcierge-prod.s3.amazonaws.com/uploads/guide/main_background_image/5dee8f2c05dc76726811c00c/optimized_112IMG_12.jpg");
+  /* font-family: sans-serif; */
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;  
+  /* flex-flow: row wrap; */
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+
+ /* @media screen and (min-width: 200px) {
+  .main {
+  margin: auto;
+  width: 90%;                   
+  } 
+ }                         */
+
+ /* @media screen and (min-width: 900px) {
+  .main {
+  margin: auto;
+  width: 100%;
+  background-size: cover;
+  } 
+}  */
+
+/* @media screen and (min-width: 768px){
+  .main {
+  margin: auto;
+  width: 400px;
+  } 
+} */
+
+/* @media screen and (min-width: 400px) {
+  .main{
+    margin: auto;
+    width:max-content;
+  }
+} */
+
+#holly {
+  /* z-index: -1; */
+  position: absolute;
+  /* display: ; */
+  width: 400px;
+  height: 100px;
+  /* justify-content: start; */
+  /* align-items: flex-start; */
+  background-color: #fff;
+}
+

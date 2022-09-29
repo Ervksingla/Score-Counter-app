@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href=" ">
+</head>
+<body>
+    
+    <!-- <button type="button" onclick=func()>Click</button> -->
+    <!-- <button type="button" onclick='document.getElementById("image").src = "https://www.w3schools.com/js/pic_bulbon.gif"'>Turned on</button>
+    <img id="image" src="https://www.w3schools.com/js/pic_bulboff.gif" style="width:100px;">
+    <button type="button" onclick='document.getElementById("image").src = "https://www.w3schools.com/js/pic_bulboff.gif"'>Turned off</button> -->
+    <div>
+        <h1 id="demo" style="margin: 100px; margin-bottom: 0;">People Entered:</h1>
+        <h2 id="count-el" style="margin-left: 100px; margin-right: 100px;">0</h2>
+
+        <button id="increment-btn" style="margin-left: 100px; margin-right: 100px; background-color: brown;" onclick="increment()">INCREMENT</button>
+        <button id="save-btn" style="margin-left: 100px; margin-right: 100px; background-color: blue;" onclick="save()">SAVE</button>
+        <h1 id="save-el" style="margin: 100px; margin-bottom: 0;">Previous Entries:</h1>
+
+    </div>
+
+    <script>
+        let count = 0;
+        let countel = document.getElementById("count-el")
+        let savel = document.getElementById("save-el")
+        function increment(){
+            count ++;
+            countel.innerText = count;
+            console.log("Button Clicked " + countel);
+        }
+        function save(){
+            sav = count + "-"
+            savel.textContent += sav;    
+            countel.textContent = 0 
+            count = 0    
+            console.log(sav);   
+        }
+        
+    </script>
+</body>
+</html>
